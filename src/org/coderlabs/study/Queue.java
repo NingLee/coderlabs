@@ -11,7 +11,7 @@ public class Queue extends ConcurrentLinkedQueue<String> {
 
     private Queue()
     {
-
+        super();
     }
 
     private static class SingletonHolder {
